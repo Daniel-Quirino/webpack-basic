@@ -1,5 +1,6 @@
-import hello from './hello';
+import Title from './components/title.js';
 
-hello('Daniel');
-hello('Davi');
-hello('Artur');
+const title = new Title();
+
+title.create("Primeira página");
+title.create("Segunda página");
