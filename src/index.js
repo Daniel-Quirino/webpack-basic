@@ -1,1 +1,5 @@
-console.log('hello webpack');
+import hello from './hello';
+
+hello('Daniel');
+hello('Davi');
+hello('Artur');
