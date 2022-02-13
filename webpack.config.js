@@ -28,5 +28,13 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin(),
-    ]
+    ],
+    mode: 'development',
+    devServer: {
+        port: 8080,
+        compress: true,
+        allowedHosts: 'all',
+        historyApiFallback: true,
+        hot: true,
+    }
 }
